@@ -16,7 +16,7 @@ let package = Package(
         .target(
             name: "KommunicateCore-iOS-SDK",
             dependencies: [],
-            path: "KommunicateCore-iOS-SDK",
+//            path: "KommunicateCore-iOS-SDK",
             exclude: ["Info.plist",
                       "MQTT/MQTTClient-Prefix.pch"],
             resources: [
