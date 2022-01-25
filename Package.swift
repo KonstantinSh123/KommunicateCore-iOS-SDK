@@ -24,7 +24,7 @@ let package = Package(
             ],
             cSettings: [
 //                 .headerSearchPath(""),
-                .headerSearchPath("Source/KommunicateCore-iOS-SDK/Classes/include"),
+                .headerSearchPath("Sources/KommunicateCore-iOS-SDK/Classes/include"),
 //                 .headerSearchPath("KommunicateCore-iOS-SDK/Classes/account"),
 //                 .headerSearchPath("KommunicateCore-iOS-SDK/Classes/applozickit"),
 //                 .headerSearchPath("KommunicateCore-iOS-SDK/Classes/channel"),
