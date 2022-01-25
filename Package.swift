@@ -16,7 +16,7 @@ let package = Package(
         .target(
             name: "KommunicateCore-iOS-SDK",
             dependencies: [],
-//             path: "Sources",
+            path: "Sources/KommunicateCore-iOS-SDK",
             exclude: ["Info.plist",
                       "MQTT/MQTTClient-Prefix.pch"],
             resources: [
@@ -24,7 +24,7 @@ let package = Package(
             ],
             cSettings: [
 //                 .headerSearchPath(""),
-                .headerSearchPath("Sources/KommunicateCore-iOS-SDK/Classes/include"),
+                .headerSearchPath("Classes/include"),
 //                 .headerSearchPath("KommunicateCore-iOS-SDK/Classes/account"),
 //                 .headerSearchPath("KommunicateCore-iOS-SDK/Classes/applozickit"),
 //                 .headerSearchPath("KommunicateCore-iOS-SDK/Classes/channel"),
