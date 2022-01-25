@@ -31,7 +31,7 @@ let package = Package(
 //                 .headerSearchPath("conversation"),
 //                 .headerSearchPath("database"),
 //                 .headerSearchPath("JWT"),
-                .headerSearchPath("Classes/include"),
+                .headerSearchPath("KommunicateCore-iOS-SDK/Classes/include"),
 //                 .headerSearchPath("message"),
 //                 .headerSearchPath("MQTT"),
 //                 .headerSearchPath("networkcommunication"),
