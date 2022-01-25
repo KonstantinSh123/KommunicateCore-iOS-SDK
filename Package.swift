@@ -31,7 +31,7 @@ let package = Package(
 //                 .headerSearchPath("conversation"),
 //                 .headerSearchPath("database"),
 //                 .headerSearchPath("JWT"),
-                .headerSearchPath("./include"),
+                .headerSearchPath("./Classes/include"),
 //                 .headerSearchPath("message"),
 //                 .headerSearchPath("MQTT"),
 //                 .headerSearchPath("networkcommunication"),
